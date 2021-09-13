@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lofi">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="../image/SNvector.svg" />
+        <link rel="stylesheet" href="../style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IMC</title>
+        <script src="../main.js"></script>
+      </head>
+  <body>
+
+
+    <div class="p-10 card bg-base-200">
+      <div class="form-control" onsubmit="calcularIMC(); return false">
+        <label class="label">
+          <span class="label-text">Nombre</span>
+        </label>
+        <input type="text" placeholder="Nombre" class="input" />
+        <label class="label">
+          <span class="label-text">Altura</span>
+        </label>
+        <input id="altura" type="text" placeholder="170cm" class="input" />
+        <label class="label">
+          <span class="label-text">Peso</span>
+        </label>
+        <input id="peso" type="text" placeholder="60kg" class="input" />
+      </div>
+      <button class="btn btn-ghost" type="submit">Calcular IMC</button>
+    </div>
+  </body>
+</html>
