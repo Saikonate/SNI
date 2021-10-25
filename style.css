@@ -30,6 +30,15 @@
     background-attachment: fixed;
     background-color:#090908
   }
+
+  .background{
+    background-image: url(image/baner.jpg);
+    height: screen;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color:#090908
+  }
   
   .text-7xl {
       font-size: 6.75rem;
