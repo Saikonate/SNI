@@ -63,4 +63,5 @@
 
 .hover-trigger:hover .hover-target {
   display: block;
+  z-index: 3;
 }
