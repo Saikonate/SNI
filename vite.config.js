@@ -14,7 +14,6 @@ module.exports = defineConfig({
         IMC: resolve(__dirname, 'IMC/index.html'),
         Comunidad: resolve(__dirname, 'Comunidad/index.html'),
         Contacto: resolve(__dirname, 'Contacto/index.html'),
-        mainjs: resolve(__dirname, 'main.js')
       }
     }
   }
