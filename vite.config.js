@@ -7,7 +7,6 @@ module.exports = defineConfig({
       input: {
         index: resolve(__dirname, 'index.html'),
         ProductosProteinas: resolve(__dirname, 'Productos-Proteinas/index.html'),
-        ProductosSuplementos: resolve(__dirname, 'Productos-Suplementos/index.html'),
         ProductosGanadores: resolve(__dirname, 'Productos-Ganadores/index.html'),
         ProductosAminoacidos: resolve(__dirname, 'Productos-Aminoacidos/index.html'),
         ProductosPreentreno: resolve(__dirname, 'Productos-Preentreno/index.html'),
